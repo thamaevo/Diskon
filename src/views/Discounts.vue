@@ -40,11 +40,7 @@
     <div v-if="store.state.list.length === 0" class="empty-area">
       <div class="empty-card empty-card-large">
         <div class="empty-illustration large">
-          <svg width="280" height="180" viewBox="0 0 180 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="20" width="160" height="80" rx="12" fill="#fff" stroke="#FFD2A6"/>
-            <circle cx="90" cy="45" r="30" fill="#FFB997"/>
-            <text x="90" y="52" text-anchor="middle" fill="#fff" font-size="26">%</text>
-          </svg>
+          <img src="../assets/empty-illustration.png" alt="Belum Ada Diskon" style="width:320px; max-width:100%; height:auto" />
         </div>
         <h3 class="empty-title">Belum Ada Diskon</h3>
         <p class="muted empty-sub">Silahkan tambah diskon untuk menarik pelanggan dan meningkatkan penjualan.</p>

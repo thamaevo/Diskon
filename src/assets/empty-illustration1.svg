@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="520" height="340" viewBox="0 0 520 340" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="520" height="340" rx="40" fill="#FF9598"/>
+  <g transform="translate(70,80)">
+    <rect x="0" y="0" width="380" height="180" rx="18" fill="#FFD85A"/>
+    <rect x="20" y="20" width="340" height="140" rx="12" fill="#FFE99D"/>
+    <g transform="translate(30,30)">
+      <rect x="0" y="0" width="220" height="100" rx="12" fill="#FFD85A" stroke="#E6A82E"/>
+      <text x="110" y="62" text-anchor="middle" font-size="64" font-family="Segoe UI, Roboto, Arial" fill="#ffffff" font-weight="700">%</text>
+    </g>
+    <circle cx="330" cy="30" r="10" fill="#2F9B3E"/>
+  </g>
+</svg>
