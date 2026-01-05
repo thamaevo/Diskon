@@ -5,7 +5,7 @@ Scaffolded minimal Vite + Vue 3 project for the frontend test.
 Quick start (Windows):
 
 ```powershell
-cd "d:/Arsip/Nutapos/Vue 3/vuejs-test"
+cd "[location your project]"
 npm install
 npm run dev
 ```
