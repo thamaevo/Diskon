@@ -8,7 +8,9 @@ try {
   savedApi = null
 }
 
-const apiBase = ref(savedApi || DEFAULT_API)
+const envApi = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_API_URL) ? import.meta.env.VITE_API_URL : null
+
+const apiBase = ref(envApi || savedApi || DEFAULT_API)
 
 const state = reactive({ list: [] })
 
@@ -91,6 +93,9 @@ export function useDiscounts() {
   // allow updating API base at runtime and reload
   async function setApiBase(url) {
     apiBase.value = url || DEFAULT_API
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) window.localStorage.setItem('apiUrl', apiBase.value)
+    } catch (e) { /* ignore storage errors */ }
     try { await load() } catch (e) { /* ignore load errors here */ }
   }
 
