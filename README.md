@@ -1,2 +1,18 @@
-# Diskon
-Sebuah Projek menggunakan Vue untuk keperluan CRUD Diskon
+# VueJS Test Project
+
+Scaffolded minimal Vite + Vue 3 project for the frontend test.
+
+Quick start (Windows):
+
+```powershell
+cd "d:/Arsip/Nutapos/Vue 3/vuejs-test"
+npm install
+npm run dev
+```
+
+Open http://localhost:5173
+
+What is included:
+- Vue 3 + Vue Router
+- Simple in-memory products store (create/edit/delete)
+- `src/views/Products.vue`, `src/components/*`
